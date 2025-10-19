@@ -7,10 +7,12 @@ body {
 .auth-div {
     display: flex;
     flex-direction: column;
-    border: 3px solid var(--border-colour);
     border-radius: var(--border-radius);
     height: 60vh;
     width: 30vw;
+    background-color: rgba(var(--bg-colour-secondary-rgb), 0.03);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
 }
 
 .auth-header {
