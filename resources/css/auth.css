@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-colour-secondary);
+    border-radius: var(--border-radius);
+    height: 60vh;
+    width: 30vw;
+}

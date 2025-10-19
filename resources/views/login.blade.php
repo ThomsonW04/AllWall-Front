@@ -3,19 +3,21 @@
 <html>
     <head>
         <title>Login</title>
-        @vite(['resources/themes/normal.css', 'resources/css/default.css', 'resources/js/auth.js'])
+        @vite(['resources/themes/normal.css', 'resources/css/default.css', 'resources/css/auth.css'])
     </head>
     <body>
-        <div class="auth-header">
-            
-        </div>
-        <div class="auth-body">
-            <form action="login" method="post" name="login_form">
+        <div class="auth-div">
+            <div class="auth-header">
+                <h1>AllWall</h1>
+            </div>
+            <div class="auth-body">
+                <form action="login" method="post" name="login_form">
 
-            </form>
-        </div>
-        <div class="auth-footer">
+                </form>
+            </div>
+            <div class="auth-footer">
 
+            </div>
         </div>
     </body>
 </html>
