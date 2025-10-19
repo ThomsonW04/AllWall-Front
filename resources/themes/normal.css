@@ -3,9 +3,9 @@
     --bg-colour-secondary: #03658C;
     --bg-colour-tertiary: #024873;
 
-    --accent-colour: #F29F05;
-    --accent-colour-hover: #F28705;
+    --accent-colour-primary: #F29F05;
+    --accent-colour-secondary: #F23005;
+    --accent-colour-tertiary: #F28705;
 
     --text-colour: #F4EDE4;
-    --error-text-colour: #F23005;
 }
