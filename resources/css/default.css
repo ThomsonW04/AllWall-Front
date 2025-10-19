@@ -18,6 +18,8 @@ button {
     transition: background-color 0.3s ease;
     border: none;
     border-radius: var(--border-radius);
+    box-sizing: border-box;
+    height: 30%;
 }
 
 button:hover {

@@ -101,3 +101,7 @@ body {
     display: flex;
     margin-bottom: 2px;
 }
+
+.auth-footer button {
+    width: 55%;
+}
