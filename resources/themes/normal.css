@@ -1,0 +1,10 @@
+:root {
+    --bg-colour: #023059;
+    --bg-colour-hover: #03658C;
+
+    --accent-colour: #F29F05;
+    --accent-colour-hover: #F28705;
+
+    --text-colour: #F4EDE4;
+    --error-text-colour: #F23005;
+}

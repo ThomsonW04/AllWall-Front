@@ -9,6 +9,7 @@ export default defineConfig({
             input: [
                 ...glob.sync('resources/css/**/*.css'),
                 ...glob.sync('resources/js/**/*.js'),
+                ...glob.sync('resources/themes/**/*.css'),
             ],
             refresh: true,
         }),
