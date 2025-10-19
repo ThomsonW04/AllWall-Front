@@ -20,7 +20,7 @@
                 </form>
             </div>
             <div class="auth-footer">
-
+                <button form="login_form">Login</button>
             </div>
         </div>
         @vite('resources/js/dots.js')
