@@ -8,7 +8,9 @@
         <div id="dot-container"></div>
         <div class="auth-div">
             <div class="auth-header">
-                <img class="logo" src="{{ asset('images/AllWall.png') }}" alt="">
+                <img class="logo" src="{{ asset('images/AllWall.png') }}" alt="AllWall Logo">
+                <h1 class="welcome">Welcome</h1>
+                <p class="auth-description">Please login to access AllWall</p>
             </div>
             <div class="auth-body">
                 <form action="login" method="post" name="login_form" class="auth-form">
@@ -20,7 +22,7 @@
                 </form>
             </div>
             <div class="auth-footer">
-                <button form="login_form">Login</button>
+                <button form="login_form" type="submit">Login</button>
             </div>
         </div>
         @vite('resources/js/dots.js')

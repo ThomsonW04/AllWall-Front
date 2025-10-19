@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
+    color: var(--text-colour);
 }
 
 body {

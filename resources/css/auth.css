@@ -18,7 +18,8 @@ body {
 .auth-header {
     margin-top: 5%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 30%;
     width: 100%;
 }
@@ -73,6 +74,7 @@ body {
 }
 
 .auth-form {
+    margin: 10%;
     width: 55%;
     height: 100%;
     z-index: 1;
@@ -104,4 +106,14 @@ body {
 
 .auth-footer button {
     width: 55%;
+}
+
+.welcome {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.auth-description {
+    font-size: smaller;
+    color: var(--text-colour-muted);
 }
