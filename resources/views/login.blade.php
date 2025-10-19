@@ -8,7 +8,7 @@
     <body>
         <div class="auth-div">
             <div class="auth-header">
-                <h1>AllWall</h1>
+                <img src="{{ asset('images/AllWall.png') }}" alt="">
             </div>
             <div class="auth-body">
                 <form action="login" method="post" name="login_form">

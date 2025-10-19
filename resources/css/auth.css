@@ -6,10 +6,29 @@ body {
 
 .auth-div {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--bg-colour-secondary);
     border-radius: var(--border-radius);
     height: 60vh;
     width: 30vw;
+}
+
+.auth-header {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+}
+
+.auth-body {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+.auth-footer {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
 }
