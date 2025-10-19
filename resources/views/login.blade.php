@@ -5,6 +5,7 @@
         @vite(['resources/themes/normal.css', 'resources/css/default.css', 'resources/css/auth.css'])
     </head>
     <body>
+        <div id="dot-container"></div>
         <div class="auth-div">
             <div class="auth-header">
                 <img class="logo" src="{{ asset('images/AllWall.png') }}" alt="">

@@ -13,6 +13,7 @@ body {
     background-color: rgba(var(--bg-colour-secondary-rgb), 0.03);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
+    z-index: 1;
 }
 
 .auth-header {
@@ -39,4 +40,12 @@ body {
 
 .logo {
     height: 65%;
+}
+
+#dot-container {
+    position: fixed;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
 }
