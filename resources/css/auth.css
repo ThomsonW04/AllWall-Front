@@ -49,3 +49,27 @@ body {
     height: 100vh;
     pointer-events: none;
 }
+
+@keyframes rise {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+.dot {
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(var(--accent-colour-secondary-rgb), 0.8);
+    animation: rise linear infinite;
+}
