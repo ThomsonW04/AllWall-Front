@@ -15,8 +15,8 @@
             <div class="auth-body">
                 <form action="login" method="post" name="login_form" class="auth-form">
                     @csrf
-                    <label for="email">Email<p class="required-star">*</p></label>
-                    <input type="email" name="email" id="email">
+                    <label for="username">username<p class="required-star">*</p></label>
+                    <input type="text" name="username" id="username">
                     <label for="password">Password<p class="required-star">*</p></label>
                     <input type="password" name="password" id="password">
                 </form>
