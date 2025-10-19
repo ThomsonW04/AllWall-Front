@@ -9,8 +9,10 @@ body {
     flex-direction: column;
     border-radius: var(--border-radius);
     height: 60vh;
-    width: 30vw;
-    border: 3px solid var(--border-colour);
+    width: 27.5vw;
+    background-color: rgba(var(--bg-colour-secondary-rgb), 0.2);
+    border: 1px solid var(--border-colour-muted);
+    z-index: 1;
 }
 
 .auth-header {
@@ -68,4 +70,34 @@ body {
     border-radius: 50%;
     background-color: rgba(var(--accent-colour-secondary-rgb), 0.8);
     animation: rise linear infinite;
+}
+
+.auth-form {
+    width: 55%;
+    height: 100%;
+    z-index: 1;
+}
+
+.auth-form input {
+    height: 5ch;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-colour-primary);
+    border: 1px solid var(--border-colour-muted);
+    color: var(--text-colour);
+    padding: 1%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.required-star {
+    font-size: larger;
+    color: var(--accent-colour-secondary);
+}
+
+.auth-form label {
+    gap: 2.5%;
+    color: var(--text-colour);
+    display: flex;
+    margin-bottom: 2px;
 }
