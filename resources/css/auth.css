@@ -10,10 +10,7 @@ body {
     border-radius: var(--border-radius);
     height: 60vh;
     width: 30vw;
-    background-color: rgba(var(--bg-colour-secondary-rgb), 0.03);
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    z-index: 1;
+    border: 3px solid var(--border-colour);
 }
 
 .auth-header {
@@ -44,7 +41,6 @@ body {
 
 #dot-container {
     position: fixed;
-    z-index: 0;
     width: 100vw;
     height: 100vh;
     pointer-events: none;
